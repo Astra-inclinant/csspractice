@@ -1,7 +1,7 @@
 .header {
   font-family: monospace;
   background: papayawhip;
-  padding: 16px;
+  padding: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -13,6 +13,7 @@ body {
 	padding: 8px;
 	display:flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .profile-image {
@@ -48,10 +49,11 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	gap: 16px;
 }
 
 .left,.right {
 	display: flex;
-	gap: 8px;
 	align-items: center;
+	gap: 16px;
 }

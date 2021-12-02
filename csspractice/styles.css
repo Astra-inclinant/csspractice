@@ -4,6 +4,7 @@
   padding: 16px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -15,9 +16,11 @@
 }
 
 ul {
+  display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  gap: 8px;
 }
 
 a {

@@ -25,7 +25,6 @@ img {
 .pic1,.pic2,.pic3,.pic4 {
 	width: 200px;
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
 	flex: 0 1 auto;
 }

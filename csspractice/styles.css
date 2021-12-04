@@ -1,6 +1,6 @@
 body {
 	font-family: 'Courier New', Courier, monospace;
-	background-color: #e0e2ee;
+	text-align: center;/* css property aligning all text in the body element horizontally*/
 }
 
 img {
@@ -11,20 +11,16 @@ img {
 .title {
 	font-size: 36px;
 	font-weight: 900;
-	margin-bottom: 32px;
-	display: flex;
-	justify-content: center;	
+	margin-bottom: 32px; /*specifies a 32px margin space between header title and content pics/text*/
 }
 
-.content {
+.container {
 	display: flex;
+	align-items: center;
 	justify-content: center;
 	gap: 52px;
 }
 
-.pic1,.pic2,.pic3,.pic4 {
-	width: 200px;
-	display: flex;
-	flex-direction: column;
-	flex: 0 1 auto;
+.info {
+	max-width: 200px;/*sets item div max widths to 200px*/
 }

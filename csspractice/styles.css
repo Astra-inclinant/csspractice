@@ -18,27 +18,28 @@ body {
 }
 
 .header {
-	background: #CACFD6;
+	background: #FE7773;
 }
 
 .navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	color: white;
 }
 
 .logo {
 	font-family: 'Bevan', cursive;
-	font-size: 80px;
-	font-weight: 400;
-	color: #424874;
+	font-size: 30x;
+	font-weight: 200;
 }
 
 .links {
 	font-family: 'Pontano Sans', sans-serif;
 	font-size: 16px;
-	color: #DCD6F7;
 	font-weight: 300;
+	display: flex;
+	gap: 16px;
 }
 
 ul {

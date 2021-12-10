@@ -1,49 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shirkhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+sans:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
 
 body {
-	height: 100vh;
 	margin: 0;
-	overflow: hidden;
-	font-family:  Roboto, sans-serif;
+}
+
+.header {
+	background: #CACFD6;
+}
+
+.navbar {
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
-img {
-	width: 600px;
+.logo {
+	font-family: 'Bevan', cursive;
+	font-size: 80px;
+	font-weight: 400;
+	color: #424874;
 }
 
-button {
-	font-family: Roboto, sans-serif;
-	border: none;
-	border-radius: 8px;
-	background: #eee;
-}
-
-input {
-	border: 1px solid #ddd;
-	border-radius: 16px;
-	padding: 8px 24px;
-	width: 400px;
-	margin-bottom: 16px;
-}
-
-.left-links, .right-links {
-	text-decoration: none;
+.links {
+	font-family: 'Pontano Sans', sans-serif;
+	font-size: 16px;
+	color: #DCD6F7;
+	font-weight: 300;
 }
 
 ul {
 	list-style-type: none;
 }
 
-.header, .footer {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	padding: 16px;
-	gap: 8px;
-}
+a {
+	text-decoration: none;
 
-.footer {
-	background: #eeeeee;
 }
